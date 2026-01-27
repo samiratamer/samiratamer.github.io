@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Longest Common Subsequence - Samira Tamer</title>
+    <title>Project 2 - Samira Tamer</title>
 </head>
 <body>
 
