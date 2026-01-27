@@ -30,10 +30,6 @@
         demonstrates how to efficiently solve a classical algorithmic problem by breaking it down into
         smaller subproblems and storing intermediate results in a table.
     </p>
-    <p>
-        Example: For input strings X = "AGGTAB" and Y = "GXTXAYB", the program outputs the length
-        of the LCS as 4 and identifies "GTAB" as the longest common subsequence.
-    </p>
 </section>
 
 <section>
