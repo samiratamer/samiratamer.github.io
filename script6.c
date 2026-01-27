@@ -18,7 +18,7 @@
 <main>
 
 <section>
-    <img src="images/lcs.png" alt="Screenshot of LCS program output" width="400">
+    <img src="images/project2.png" alt="Screenshot of LCS program output" width="400">
 </section>
 
 <section>
