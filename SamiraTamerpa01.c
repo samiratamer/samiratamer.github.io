@@ -12,7 +12,7 @@
 
 <nav>
     <a href="index.html">Back to Resume</a> |
-    <a href="SamiraTamerpa01.c">Next Project</a>
+    <a href="project2.html">Next Project</a>
 </nav>
 
 <main>
@@ -28,7 +28,7 @@
         using the Hill cipher. The program supports Hill matrices of sizes from 2x2 up to 9x9
         and accepts two command-line parameters: one for the file containing the encryption key
         and one for the file to be encrypted. The program outputs the encrypted results to the
-        console.
+        console (terminal).
     </p>
 </section>
 
