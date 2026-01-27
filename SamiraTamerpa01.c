@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 1 - Samira Tamer</title>
+</head>
+<body>
+
+<header>
+    <h1>Hill Cipher File Encryption Program</h1>
+</header>
+
+<nav>
+    <a href="index.html">Back to Resume</a> |
+    <a href="SamiraTamerpa01.c">Next Project</a>
+</nav>
+
+<main>
+
+<section>
+    <img src="images/project1.png" alt="Screenshot of Hill Cipher program output" width="400">
+</section>
+
+<section>
+    <h2>Project Description</h2>
+    <p>
+        This project involved developing a program that encrypts alphabetic letters in a file
+        using the Hill cipher. The program supports Hill matrices of sizes from 2x2 up to 9x9
+        and accepts two command-line parameters: one for the file containing the encryption key
+        and one for the file to be encrypted. The program outputs the encrypted results to the
+        console.
+    </p>
+</section>
+
+<section>
+    <h2>Skills Learned</h2>
+    <ul>
+        <li>Implementing the Hill cipher algorithm for file encryption</li>
+        <li>Working with matrices of variable sizes (2x2 to 9x9)</li>
+        <li>Reading from and writing to files via command-line parameters</li>
+        <li>Debugging and testing console-based applications</li>
+        <li>Translating cryptography concepts into practical code</li>
+    </ul>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Samira Tamer</p>
+</footer>
+
+</body>
+</html>
