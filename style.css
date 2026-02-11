@@ -8,10 +8,10 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.8;
+    color: #2c2c2c;
+    background-color: #faf9f7;
 }
 
 /* ===========================
@@ -20,167 +20,197 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #f5e6e8 0%, #e8d5d9 100%);
+    padding: 3rem 1.5rem;
     text-align: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e0d5d8;
 }
 
 header h1 {
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    font-weight: 400;
+    color: #5a4a4e;
+    letter-spacing: 0.5px;
+    font-family: 'Georgia', serif;
 }
 
 header p {
     font-size: 0.9rem;
-    margin-top: 0.5rem;
+    margin-top: 0.8rem;
+    color: #6b5b5e;
+    font-family: 'Verdana', sans-serif;
 }
 
 header a {
-    color: #fff;
+    color: #8b7375;
     text-decoration: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    transition: border-color 0.3s ease;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+    padding-bottom: 2px;
 }
 
 header a:hover {
-    border-bottom-color: #fff;
+    color: #5a4a4e;
+    border-bottom-color: #5a4a4e;
 }
 
 /* Navigation Styles */
 nav {
     background-color: #fff;
-    padding: 1rem;
+    padding: 1.2rem 1rem;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #f0ebe8;
     position: sticky;
     top: 0;
     z-index: 100;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
 
 nav a {
-    color: #667eea;
+    color: #8b7375;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
     padding: 0.5rem 1rem;
     display: inline-block;
     transition: color 0.3s ease;
+    font-family: 'Verdana', sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
 }
 
 nav a:hover {
-    color: #764ba2;
+    color: #5a4a4e;
 }
 
 /* Main Content */
 main {
     max-width: 100%;
-    padding: 1.5rem 1rem;
+    padding: 2rem 1.5rem;
     margin: 0 auto;
 }
 
 /* Section Styles */
 section {
-    background-color: white;
-    margin-bottom: 1.5rem;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+    padding: 2rem 1.5rem;
+    border-radius: 2px;
+    border: 1px solid #f0ebe8;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
 }
 
 section h2 {
-    color: #667eea;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #667eea;
+    color: #5a4a4e;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #e8d5d9;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: 'Georgia', serif;
 }
 
 section p {
-    margin-bottom: 0.8rem;
-    color: #555;
+    margin-bottom: 1rem;
+    color: #4a4a4a;
+    font-size: 0.95rem;
 }
 
 /* Article Styles (Work Experience) */
 article {
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #f5f0ed;
 }
 
 article:last-child {
     border-bottom: none;
+    padding-bottom: 0;
 }
 
 article h3 {
-    color: #333;
+    color: #5a4a4e;
     font-size: 1.1rem;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+    font-family: 'Georgia', serif;
 }
 
 article p {
     font-style: italic;
-    color: #777;
-    font-size: 0.9rem;
-    margin-bottom: 0.8rem;
+    color: #8b7375;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    font-family: 'Verdana', sans-serif;
 }
 
 /* List Styles */
 ul {
     margin-left: 1.5rem;
-    margin-top: 0.5rem;
+    margin-top: 0.8rem;
 }
 
 li {
-    margin-bottom: 0.5rem;
-    color: #555;
+    margin-bottom: 0.7rem;
+    color: #4a4a4a;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+li::marker {
+    color: #d4b5b9;
 }
 
 /* Image Styles */
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1.5rem;
+    border-radius: 2px;
+    border: 1px solid #f0ebe8;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 /* Footer Styles */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #f5e6e8;
+    color: #5a4a4e;
     text-align: center;
-    padding: 1.5rem;
-    margin-top: 2rem;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-top: 1px solid #e8d5d9;
 }
 
 footer p {
-    font-size: 0.9rem;
-    color: #ccc;
+    font-size: 0.85rem;
+    color: #6b5b5e;
+    font-family: 'Verdana', sans-serif;
+    letter-spacing: 0.5px;
 }
 
 /* Strong/Bold Text */
 strong {
-    color: #333;
+    color: #5a4a4e;
     font-weight: 600;
 }
 
 /* ===========================
-   Desktop/Laptop Design (1920px)
+   Tablet Design (768px+)
    =========================== */
 @media screen and (min-width: 768px) {
     /* Header */
     header {
-        padding: 3rem 2rem;
+        padding: 4rem 2rem;
     }
     
     header h1 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
     }
     
     header p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     /* Navigation */
@@ -189,96 +219,181 @@ strong {
     }
     
     nav a {
-        padding: 0.7rem 1.5rem;
-        margin: 0 0.5rem;
+        padding: 0.7rem 1.8rem;
+        margin: 0 0.3rem;
+        font-size: 0.9rem;
     }
     
-    /* Main Content - Two Column Layout */
+    /* Main Content */
     main {
-        max-width: 1200px;
+        max-width: 900px;
         padding: 3rem 2rem;
+    }
+    
+    section {
+        padding: 2.5rem 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    section h2 {
+        font-size: 1.7rem;
+    }
+}
+
+/* ===========================
+   Desktop/Laptop Design (1200px+)
+   =========================== */
+@media screen and (min-width: 1200px) {
+    header {
+        padding: 5rem 3rem;
+    }
+    
+    header h1 {
+        font-size: 3rem;
+        letter-spacing: 2px;
+    }
+    
+    header p {
+        font-size: 1.1rem;
+    }
+    
+    nav a {
+        font-size: 0.95rem;
+        padding: 0.8rem 2rem;
+    }
+    
+    /* Main Content - Two Column Grid Layout */
+    main {
+        max-width: 1300px;
+        padding: 4rem 3rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+        gap: 2.5rem;
     }
     
     /* Full width sections */
     section:first-child,
-    section:nth-child(2) {
+    section:nth-child(2),
+    section:nth-child(3) {
         grid-column: 1 / -1;
     }
     
-    /* Section Styles */
+    /* Work Experience takes full width */
+    section:nth-child(3) {
+        grid-column: 1 / -1;
+    }
+    
+    /* Projects and Skills side by side */
+    section:nth-child(4),
+    section:nth-child(5) {
+        grid-column: auto;
+    }
+    
     section {
-        padding: 2rem;
+        padding: 3rem;
         margin-bottom: 0;
     }
     
     section h2 {
-        font-size: 1.8rem;
+        font-size: 1.9rem;
+        margin-bottom: 1.5rem;
     }
     
-    /* Article Styles */
+    section p {
+        font-size: 1rem;
+    }
+    
     article h3 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     
     article p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     
-    /* Footer */
+    li {
+        font-size: 0.95rem;
+    }
+    
     footer {
-        padding: 2rem;
+        padding: 2.5rem;
     }
     
     footer p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
-/* Extra Large Screens (1920px) */
-@media screen and (min-width: 1440px) {
+/* ===========================
+   Extra Large Screens (1920px)
+   =========================== */
+@media screen and (min-width: 1600px) {
     header h1 {
-        font-size: 3.2rem;
-    }
-    
-    header p {
-        font-size: 1.2rem;
+        font-size: 3.5rem;
+        letter-spacing: 3px;
     }
     
     main {
         max-width: 1400px;
-        padding: 4rem 3rem;
-        gap: 2.5rem;
+        padding: 5rem 4rem;
+        gap: 3rem;
     }
     
     section {
-        padding: 2.5rem;
+        padding: 3.5rem;
     }
     
     section h2 {
-        font-size: 2rem;
+        font-size: 2.1rem;
+    }
+    
+    section p {
+        font-size: 1.05rem;
     }
     
     nav a {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
 /* ===========================
    Project Pages Specific Styles
    =========================== */
-.project-image-container {
-    text-align: center;
-    margin: 2rem 0;
-}
 
-/* Single column layout for project pages on desktop */
+/* Single column layout for project pages */
 body.project-page main {
-    grid-template-columns: 1fr;
+    display: block;
+    max-width: 900px;
 }
 
 body.project-page section {
     grid-column: 1;
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+    body.project-page main {
+        max-width: 1000px;
+    }
+}
+
+/* ===========================
+   Elegant Accents
+   =========================== */
+
+/* Subtle decorative element for sections */
+section::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: linear-gradient(90deg, #d4b5b9 0%, transparent 100%);
+    margin-bottom: 1.5rem;
+}
+
+/* Smooth focus states for accessibility */
+a:focus,
+button:focus {
+    outline: 2px solid #d4b5b9;
+    outline-offset: 2px;
 }
