@@ -1,4 +1,4 @@
-/*  CSS Reset & Base Styles */
+/* CSS Reset & Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     background-color: #faf9f7;
 }
 
-/* Mobile-First Design (412px) */
+/*  Mobile-First Design (412px) */
 
 /* Header Styles */
 header {
@@ -191,20 +191,20 @@ strong {
     font-weight: 600;
 }
 
-/* Tablet Design (768px+) */
-@media screen and (min-width: 768px) {
+/* Desktop/Laptop Design (1920px) */
+@media screen and (min-width: 1920px) {
     /* Header */
     header {
-        padding: 4rem 2rem;
+        padding: 5rem 3rem;
     }
     
     header h1 {
-        font-size: 2.5rem;
-        letter-spacing: 1px;
+        font-size: 3.5rem;
+        letter-spacing: 3px;
     }
     
     header p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     
     /* Navigation */
@@ -213,54 +213,18 @@ strong {
     }
     
     nav a {
-        padding: 0.7rem 1.8rem;
-        margin: 0 0.3rem;
-        font-size: 0.9rem;
-    }
-    
-    /* Main Content */
-    main {
-        max-width: 900px;
-        padding: 3rem 2rem;
-    }
-    
-    section {
-        padding: 2.5rem 2.5rem;
-        margin-bottom: 2.5rem;
-    }
-    
-    section h2 {
-        font-size: 1.7rem;
-    }
-}
-
-/* Desktop/Laptop Design (1200px+) */
-@media screen and (min-width: 1200px) {
-    header {
-        padding: 5rem 3rem;
-    }
-    
-    header h1 {
-        font-size: 3rem;
-        letter-spacing: 2px;
-    }
-    
-    header p {
-        font-size: 1.1rem;
-    }
-    
-    nav a {
-        font-size: 0.95rem;
+        font-size: 1rem;
         padding: 0.8rem 2rem;
+        margin: 0 0.5rem;
     }
     
     /* Main Content - Two Column Grid Layout */
     main {
-        max-width: 1300px;
-        padding: 4rem 3rem;
+        max-width: 1400px;
+        padding: 5rem 4rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 2.5rem;
+        gap: 3rem;
     }
     
     /* Full width sections */
@@ -282,29 +246,29 @@ strong {
     }
     
     section {
-        padding: 3rem;
+        padding: 3.5rem;
         margin-bottom: 0;
     }
     
     section h2 {
-        font-size: 1.9rem;
+        font-size: 2.1rem;
         margin-bottom: 1.5rem;
     }
     
     section p {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
     
     article h3 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     
     article p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     
     li {
-        font-size: 0.95rem;
+        font-size: 1rem;
     }
     
     footer {
@@ -312,36 +276,6 @@ strong {
     }
     
     footer p {
-        font-size: 0.9rem;
-    }
-}
-
-/* Extra Large Screens (1920px) */
-@media screen and (min-width: 1600px) {
-    header h1 {
-        font-size: 3.5rem;
-        letter-spacing: 3px;
-    }
-    
-    main {
-        max-width: 1400px;
-        padding: 5rem 4rem;
-        gap: 3rem;
-    }
-    
-    section {
-        padding: 3.5rem;
-    }
-    
-    section h2 {
-        font-size: 2.1rem;
-    }
-    
-    section p {
-        font-size: 1.05rem;
-    }
-    
-    nav a {
         font-size: 1rem;
     }
 }
@@ -374,7 +308,7 @@ body.project-page section p strong {
     color: #8b7375;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
     body.project-page main {
         max-width: 1000px;
     }
