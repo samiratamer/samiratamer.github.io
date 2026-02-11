@@ -1,4 +1,6 @@
-/*CSS Reset & Base Styles*/
+/* ===========================
+   CSS Reset & Base Styles
+   =========================== */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +14,9 @@ body {
     background-color: #faf9f7;
 }
 
-/*Mobile-First Design (412px)*/
+/* ===========================
+   Mobile-First Design (412px)
+   =========================== */
 
 /* Header Styles */
 header {
@@ -191,7 +195,9 @@ strong {
     font-weight: 600;
 }
 
-/* Tablet Design (768px+)*/
+/* ===========================
+   Tablet Design (768px+)
+   =========================== */
 @media screen and (min-width: 768px) {
     /* Header */
     header {
@@ -234,7 +240,9 @@ strong {
     }
 }
 
-/*Desktop/Laptop Design (1200px+)*/
+/* ===========================
+   Desktop/Laptop Design (1200px+)
+   =========================== */
 @media screen and (min-width: 1200px) {
     header {
         padding: 5rem 3rem;
@@ -316,7 +324,9 @@ strong {
     }
 }
 
-/* Extra Large Screens (1920px) */
+/* ===========================
+   Extra Large Screens (1920px)
+   =========================== */
 @media screen and (min-width: 1600px) {
     header h1 {
         font-size: 3.5rem;
@@ -346,7 +356,9 @@ strong {
     }
 }
 
-/*  Project Pages Specific Styles */
+/* ===========================
+   Project Pages Specific Styles
+   =========================== */
 
 /* Single column layout for project pages */
 body.project-page main {
@@ -359,13 +371,34 @@ body.project-page section {
     margin-bottom: 2.5rem;
 }
 
+/* Project page header enhancement */
+body.project-page header p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Technical details styling */
+body.project-page section p strong {
+    display: inline-block;
+    min-width: 150px;
+    color: #8b7375;
+}
+
 @media screen and (min-width: 1200px) {
     body.project-page main {
         max-width: 1000px;
     }
+    
+    body.project-page header p {
+        font-size: 1.2rem;
+    }
 }
 
-/* Elegant Accents */
+/* ===========================
+   Elegant Accents
+   =========================== */
 
 /* Subtle decorative element for sections */
 section::before {
